@@ -17,7 +17,7 @@
    - 关键性能数据（CPU Load, Mem, 磁盘 I/O, 磁盘 S.M.A.R.T 信息, Uptime）和日志 dump
 4. 网络安全
    - DROP 掉不需要的端口 (IPv4 和 **IPv6**)
-   - 推荐 iptables 和 ip6tables，Debian 可以使用 ipconfig-persistent
+   - 推荐 iptables 和 ip6tables，Debian 可以使用 iptables-persistent
    - ssh 采用 publickey 登录方式，禁用密码登录
    - 部分关键服务采用 OpenVPN 登录后可见
 5. 电源安全
